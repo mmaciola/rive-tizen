@@ -1,4 +1,6 @@
-[submodule "submodule"]
-	path = submodule
+[submodule "submodule/rive-cpp"]
+	path = submodule/rive-cpp
 	url = https://github.com/rive-app/rive-cpp.git
-	branch = master
+[submodule "submodule/skia"]
+	path = submodule/skia
+	url = https://github.com/google/skia.git

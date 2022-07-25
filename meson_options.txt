@@ -1,10 +1,9 @@
-option('example',
+option('use_gl',
     type: 'boolean',
     value: false,
-    description: 'Enable building example')
+    description: 'whether use GL for skia. Use make_skia_cpu/gpu.sh accordingly.')
 
-option('test',
-   type: 'boolean',
-   value: false,
-   description: 'Enable building unit tests')
-
+option('install_headers',
+    type: 'boolean',
+    value: true,
+    description: 'whether should install headers of rive-cpp and skia library.')
