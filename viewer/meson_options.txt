@@ -1,0 +1,4 @@
+option('use_gl',
+    type: 'boolean',
+    value: false,
+    description: 'whether use GL for skia. Use make_skia_cpu/gpu.sh accordingly.')
